@@ -1,0 +1,189 @@
+@media screen and (max-width: 1024px) {
+  div#container {
+		width: 100%;
+		height: 100%;
+		flex-direction: column;
+  }
+
+  div#side-nav {
+  	width: 100%;
+    height: 20%;
+  }
+
+  div#side-nav>div#types {
+		height: 100%;
+		padding: 50px;
+  }
+
+  div#side-nav>div#types>span#app-title {
+  	font-size: 70px;
+  }
+
+  div#side-nav>div#types ul {
+  	height: 70%;
+    margin-top: 50px;
+  }
+
+  div#side-nav>div#types li {
+  	height: 30%;
+  }
+
+  div#side-nav>div#types li:nth-of-type(1)>span:nth-of-type(1) {
+  	font-size: 45px;
+  }
+
+  div#side-nav>div#types li:nth-of-type(1)>span {
+  	font-size: 45px;
+  }
+
+  div#side-nav>div#types li span:nth-of-type(1) {
+  	font-size: 35px;
+  }
+
+  div#side-nav>div#types li {
+  	font-size: 35px;
+  }
+
+  div#content {
+  	width: 100%;
+    height: 80%;
+  }
+
+  div#list {
+  	padding: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div#list h3 {
+  	font-size: 65px;
+    height: 5%;
+  }
+
+  div#items {
+  	height: 70%;
+  }
+
+  div.item {
+    margin: 50px 10px;
+  	height: fit-content;
+  }
+
+  div.item>div:nth-of-type(1) {
+  	height: 100%;
+  }
+
+  div.item .details {
+  	width: 90%;
+  }
+
+  div.item .title {
+  	font-size: 55px;
+    margin-top: 20px;
+  }
+
+  div.item .task-date {
+  	font-size: 35px;
+    margin-top: 30px;
+  }
+
+  div.item .item-actions {
+  	font-size: 50px;
+  }
+
+  div#add-item-container.active {
+    height: 70%;
+    width: 70%;
+    right: 50px;
+    top: 150px;
+    padding: 30px 50px;
+  }
+
+  div#add-item-container>span {
+    font-size: 50px;
+    font-weight: 100;
+    margin: 50px 0;
+  }
+
+  div#add-item-container>p,
+  div.update-container>p {
+    height: 10%;
+  }
+
+  div#add-item-container>p:nth-of-type(2),
+  div.update-container>p:nth-of-type(2) {
+    height: 40%;
+  }
+
+  div#add-item-container>p>label,
+  div.update-container>p>label,
+  div#add-item-container>div#message {
+    font-size: 45px;
+  }
+
+  div#add-item-container>p>select,
+  div.update-container>p>select {
+    font-size: 35px;
+  }
+
+  div#add-item-container>p>input,
+  div.update-container>p>input {
+    border: 1px solid #CCC;
+    font-size: 35px;
+  }
+
+  div#add-item-container>p>textarea {
+    margin: 50px 0;
+    height: 500px;
+    font-size: 35px;
+  }
+
+  div.update-container>p>textarea {
+    margin: 50px 0;
+    height: 200px;
+    font-size: 35px;
+  }
+
+  div#actions>button {
+    font-size: 45px;
+    padding: 15px;
+  }
+
+  div#actions>button:nth-of-type(2) {
+    margin: auto 30px;
+  }
+
+  div.item>div:nth-of-type(2) {
+    width: 90%;
+    margin-top: 30px;
+    padding: 50px;
+  }
+
+  div.item>div:nth-of-type(2)>div {
+    margin-top: 30px;
+  }
+
+  div.item>div:nth-of-type(2)>div>button {
+    cursor: pointer;
+    color: #212121;
+    font-size: 45px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    background-color: #FFF;
+    padding: 15px;
+    outline: none;
+  }
+
+  div.item>div:nth-of-type(2)>div>span {
+    font-size: 35px;
+    margin-left: 10px;
+  }
+
+  button#add-task {
+  	bottom: 50px;
+    right: 50px;
+    height: 150px;
+    width: 150px;
+  }
+}
