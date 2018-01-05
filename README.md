@@ -1,8 +1,12 @@
+# todo-list-app
+
+Todo list app using PHP/MySQL/VueJS
+
 Backend - PHP
 Frontend - HTML/VUEJS/CSS
 DATABASE - MYSQL
 
-## Getting started
+# Getting started
 	* Load app_db.sql in your local mysql database.
 	  The database config uses "root" as the username with no password.
 	  If your root account is configured with a password, kindly update the database config under app/config/database.php
